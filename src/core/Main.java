@@ -7,25 +7,31 @@ public class Main {
     final static int eliminar = 4;
     final static int salir = 5;
     static int opcionMenu;
+    static boolean userWantsToExit = false;
 
     public static void main(String[] args) {
 
-        switch (opcionMenu) {
-            case alta:
-                break;
+        while (!userWantsToExit) {
 
-            case baja:
-            break;
+            switch (opcionMenu) {
+                case alta:
+                    break;
 
-            case modificar:
-            break;
+                case baja:
+                    break;
 
-            case eliminar:
-            break;
+                case modificar:
+                    break;
 
-            case salir:
-            break;
+                case eliminar:
+                    break;
+
+                case salir:
+                    userWantsToExit = true;
+                    break;
+            }
         }
+
 
 
 
