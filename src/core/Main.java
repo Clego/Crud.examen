@@ -23,7 +23,7 @@ public class Main {
                 case baja: baja();
                     break;
 
-                case modificar:
+                case modificar: modificar();
                     break;
 
                 case listar:
@@ -61,6 +61,22 @@ public class Main {
     int id = Input.numberInput();
     Estudiante = null;
     }
+
+    private static void modificar(){
+        Output.modificarEstudiante();
+        Output.id();
+        int id = Input.numberInput();
+        Output.nombre();
+        String nombre = Input.stringInput();
+        Output.edad();
+        int edad = numberInput();
+        Output.asignatura();
+        int asignatura = numberInput();
+        Output.nota();
+        int notaAsignatura = numberInput();
+    }
+
+
 }
 
 

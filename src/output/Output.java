@@ -33,7 +33,7 @@ public class Output {
         System.out.println("Introduce el nota del estudiante");
     }
 
-    public void modificarEstudiante() {
+    public static void modificarEstudiante() {
             System.out.println("Que estudiante quieres modificar?");
     }
     public static void eliminarEstudiante() {
