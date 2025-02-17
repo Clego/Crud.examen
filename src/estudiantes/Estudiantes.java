@@ -44,4 +44,5 @@ public String getAsignatura2() {
 public void setAsignatura2(String asignatura2) {
     this.asignatura2 = asignatura2;
 }
+
 }

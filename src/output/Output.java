@@ -36,10 +36,10 @@ public class Output {
     public void modificarEstudiante() {
             System.out.println("Que estudiante quieres modificar?");
     }
-    public void eliminarEstudiante() {
+    public static void eliminarEstudiante() {
         System.out.println("Que estudiante quieres eliminar?");
     }
-    public void salir() {
+    public static void salir() {
         System.out.println("Que salir del estudiante");
     }
 
