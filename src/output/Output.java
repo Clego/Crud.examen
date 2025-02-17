@@ -14,4 +14,36 @@ public class Output {
                 5. Salir
                 """);
     }
+
+
+    public void nombre() {
+        System.out.println("Introduce el nombre del estudiante");
+    }
+
+    public void apellido() {
+        System.out.println("Introduce el apellido del estudiante");
+    }
+
+    public void edad() {
+        System.out.println("Introduce la edad del estudiante");
+    }
+    public void asignatura() {
+        System.out.println("Introduce el asignatura del estudiante");
+    }
+
+    public void nota() {
+        System.out.println("Introduce el nota del estudiante");
+    }
+
+    public void modificarEstudiante() {
+            System.out.println("Que estudiante quieres modificar?");
+    }
+    public void eliminarEstudiante() {
+        System.out.println("Que estudiante quieres eliminar?");
+    }
+    public void salir() {
+        System.out.println("Que salir del estudiante");
+    }
+
+
 }
