@@ -26,7 +26,7 @@ public class Main {
                 case modificar: modificar();
                     break;
 
-                case listar:
+                case listar: listar();
                     break;
 
                 case salir:
@@ -77,6 +77,9 @@ public class Main {
         int notaAsignatura = numberInput();
     }
 
+    private static void listar() {
+        System.out.println(Estudiantes);
+    }
 
 }
 
