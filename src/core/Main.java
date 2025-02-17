@@ -9,7 +9,7 @@ public class Main {
     final static int alta = 1;
     final static int baja = 2;
     final static int modificar = 3;
-    final static int eliminar = 4;
+    final static int listar = 4;
     final static int salir = 5;
     static int opcionMenu;
     static boolean userWantsToExit = false;
@@ -20,22 +20,21 @@ public class Main {
                 case alta: altaEstudiante();
                     break;
 
-                case baja:
+                case baja: baja();
                     break;
 
                 case modificar:
                     break;
 
-                case eliminar:
+                case listar:
                     break;
 
                 case salir:
+                    Output.salir();
                     userWantsToExit = true;
                     break;
             }
-
         }
-
     }
 
     private static void altaEstudiante() {
@@ -53,9 +52,15 @@ public class Main {
         String asignatura2 = Input.stringInput();
         Output.nota();
         int notaAsignatura2 = numberInput();
-
         Estudiantes estudiante = new Estudiantes(id, nombre, edad, asignatura1, notaAsignatura1, asignatura2, notaAsignatura2);
     }
 
 
+    private static void baja() {
+    Output.eliminarEstudiante();
+    int id = Input.numberInput();
+    Estudiante = null;
+    }
 }
+
+
