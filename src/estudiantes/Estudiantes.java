@@ -2,15 +2,16 @@ package estudiantes;
 
 public class Estudiantes {
 String nombre;
-String apellido;
 int edad;
 String asignatura1;
 String asignatura2;
 
+    public Estudiantes(int id, String nombre, int edad, String asignatura1, int notaAsignatura1, String asignatura2, int notaAsignatura2) {
+    }
 
-public void Estudiantes() {
+
+    public void Estudiantes() {
     this.nombre = nombre;
-    this.apellido = apellido;
     this.edad = edad;
     this.asignatura1 = asignatura1;
     this.asignatura2 = asignatura2;
@@ -23,12 +24,7 @@ public String getNombre() {
 public void setNombre(String nombre) {
     this.nombre = nombre;
 }
-public String getApellido() {
-    return apellido;
-}
-public void setApellido(String apellido) {
-    this.apellido = apellido;
-}
+
 public int getEdad() {
     return edad;
 }
