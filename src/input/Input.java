@@ -15,5 +15,4 @@ public String stringInput () {
     String str = sc.next();
     return str;
 }
-
 }
