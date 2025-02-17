@@ -14,24 +14,22 @@ public class Output {
                 5. Salir
                 """);
     }
+    public static void id() {
+        System.out.println("Introduce el ID del estudiante");
+    }
 
-
-    public void nombre() {
+    public static void nombre() {
         System.out.println("Introduce el nombre del estudiante");
     }
 
-    public void apellido() {
-        System.out.println("Introduce el apellido del estudiante");
-    }
-
-    public void edad() {
+    public static void edad() {
         System.out.println("Introduce la edad del estudiante");
     }
-    public void asignatura() {
+    public static void asignatura() {
         System.out.println("Introduce el asignatura del estudiante");
     }
 
-    public void nota() {
+    public static void nota() {
         System.out.println("Introduce el nota del estudiante");
     }
 

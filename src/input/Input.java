@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Input {
 
-    Scanner sc = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
 
-public int numberInput () {
+public static int numberInput() {
     int num = sc.nextInt();
     return num;
 }
 
-public String stringInput () {
+public static String stringInput() {
     String str = sc.next();
     return str;
 }
