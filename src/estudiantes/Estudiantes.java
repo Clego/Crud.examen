@@ -2,21 +2,23 @@ package estudiantes;
 
 public class Estudiantes {
 String nombre;
+int id;
 int edad;
 String asignatura1;
 String asignatura2;
+int notaAsignatura1;
+int notaAsignatura2;
 
     public Estudiantes(int id, String nombre, int edad, String asignatura1, int notaAsignatura1, String asignatura2, int notaAsignatura2) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.asignatura1 = asignatura1;
+        this.asignatura2 = asignatura2;
+        this.id = id;
+        this.notaAsignatura1 = notaAsignatura1;
+        this.notaAsignatura2 = notaAsignatura2;
+
     }
-
-
-    public void Estudiantes() {
-    this.nombre = nombre;
-    this.edad = edad;
-    this.asignatura1 = asignatura1;
-    this.asignatura2 = asignatura2;
-
-}
 
 public String getNombre() {
     return nombre;
